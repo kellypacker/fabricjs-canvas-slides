@@ -2,3 +2,10 @@
   border: none;
   box-shadow: none;
 }
+
+.reveal .big-code {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-top: 20px;
+  word-wrap: break-word;
+}

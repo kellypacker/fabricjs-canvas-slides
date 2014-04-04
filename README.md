@@ -17,3 +17,5 @@ jsbin
 ```
 
 [http://localhost:3000/](http://localhost:3000/)
+
+Uses [LiveReload](http://livereload.com/)

@@ -90,9 +90,11 @@
 
 				<section>
 					<h2>Native Canvas</h2>
-					<blockquote cite="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#the-canvas-element">
+					<blockquote style="padding: 40px;" cite="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#the-canvas-element">
 						The canvas element provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, art, or other visual images on the fly.
 					</blockquote>
+					<br/>
+					<p>Canvas is a rectangle on the page where you can use Javascript to draw stuff.</p>
 				</section>
 
 				<section>
@@ -135,6 +137,14 @@
 					</ul>
 				</section>
 	 			<section>
+	 				<h2>Just the canvas</h2>
+	 				<h3>HTML</h3>
+<pre><code data-trim contenteditable wrap class="big-code">
+<canvas id="myCanvas" width="300" height="200"
+style="border:1px solid black; background-color: orange;"></canvas>
+</code></pre>
+					<img class="no-border" src="/images/simplest-canvas-1.png" width="" alt="">
+				</section>	 			<section>
 	 				<h2>Simplest canvas example</h2>
 	 				<h3>HTML</h3>
 <pre><code data-trim contenteditable wrap class="big-code">
@@ -145,7 +155,8 @@ style="border:1px solid black; background-color: orange;"></canvas>
 <pre><code data-trim contenteditable class="big-code">
 var myCanvas = document.getElementById("myCanvas");
 var ctx = myCanvas.getContext("2d");
-ctx.fillRect(0,0,150,75);
+// (x, y, width, height)
+ctx.fillRect(20, 30, 150, 75);
 </code></pre>
 					<img class="no-border" src="/images/simplest-canvas.png" width="" alt="">
 				</section>
@@ -153,32 +164,32 @@ ctx.fillRect(0,0,150,75);
 	 			<section>
 	 				<h2>Native Canvas</h2>
 	 				<h3>Simple Rectangle</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/4/embed?html,js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/27/embed?html,js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Native Canvas</h2>
 	 				<h3>Save state, rotate, restore</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/3/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/28/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Native Canvas</h2>
 	 				<h3>Clear rectangle</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/5/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/30/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Native Canvas</h2>
 	 				<h3>Circle</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/8/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/29/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Native Canvas</h2>
 	 				<h3>Line</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/10/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/31/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Native Canvas</h2>
 	 				<h3>Text</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/6/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/33/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Native Canvas</h2>
@@ -197,14 +208,19 @@ style="border:1px solid black;"></canvas>
 <pre><code data-trim contenteditable class="big-code">
 var canvas = new fabric.Element("myCanvas");
 var rect = new fabric.Rect({
-  top: 30,
+  top: 100,
   left: 10,
   fill: "red",
-  width: 150,
-  height: 75
+  width: 180,
+  height: 100
 });
 canvas.add(rect);
 </code></pre>
+				</section>
+				<section>
+	 				<h2>Fabric.js</h2>
+	 				<h3>Simple Rectangle</h3>
+<a class="jsbin-embed" href="http://localhost:3000/tid/13/embed?html,js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 					<h2>Fabric creates 2 canvases</h2>
@@ -225,12 +241,6 @@ canvas.add(rect);
 
 				</section>
 
-
-				<section>
-	 				<h2>Fabric.js</h2>
-	 				<h3>Simple Rectangle</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/13/embed?html,js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
-				</section>
 				<section>
 	 				<h2>Fabric.js</h2>
 	 				<h3>Simple Rectangle - Rotated</h3>
@@ -272,6 +282,10 @@ canvas.add(rect);
 						<li>fabric.Group</li>
 						<li>fabric.Text</li>
 						<li>fabric.Ellipse</li>
+						<li>fabric.Image</li>
+						<li>fabric.Polyline</li>
+						<li>fabric.Polygon</li>
+						<li>fabric.Path</li>
 					</ul>
 				</section>
 
@@ -317,13 +331,7 @@ rect.set({ width: 10, height: 20, fill: '#f55', opacity: 0.7 });
 
 	 			<section>
 	 				<h3>Animation</h3>
-<pre><code data-trim contenteditable wrap class="big-code">
-rect.animate('left', '+=100', {
-  onChange: canvas.renderAll.bind(canvas),
-  duration: 1000,
-  easing: fabric.util.ease.easeOutBounce
-});
-</code></pre>
+<a class="jsbin-embed" href="http://localhost:3000/tid/35/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 	 			<section>
 	 				<h2>Groups</h2>
@@ -388,25 +396,56 @@ var LabeledRect = fabric.util.createClass(fabric.Rect, {
 </code></pre>
 				</section>
 				<section>
-					<h2>Other highlights</h2>
+					<h2>Other awesomeness</h2>
+				</section>
+				<section>
+					<h2>Fast</h2>
+					<p>Benchmarks<br />150 random objects: <br/>Initialization: 151ms Rendering: 79ms Total time: 230ms</p>
+				</section>
+				<section>
+					<h2>Test-Driven</h2>
+					<p>2400+ tests</p>
+					<p>Unit, functional, import/export</p>
+				</section>
+				<section>
+					<h2>Browser Support</h2>
 					<ul>
-						<li>Canvas can be serialized to JSON or SVG and restored</li>
-						<li>Benchmarks<br />150 random objects: <br/>Initialization: 151ms Rendering: 79ms Total time: 230ms</li>
-						<li>It’s test-driven (2400+ tests)</li>
-						<li>supports IE<9 (degrades gracefully)</li>
+						<li>Firefox 2+</li>
+						<li>Safari 3+</li>
+						<li>Opera 9.64+</li>
+						<li>Chrome (all versions should work)</li>
+						<li>IE9, IE10, IE11</li>
+					</ul>
+					<br /><br />
+					<p><em>If you are brave, there is some IE<9 support with excanvas</em></p>
+				</section>
+				<section>
+					<h2>In development</h2>
+					<ul>
 						<li>Currently in development, new features all the time</li>
-						<li>Great docs and responsive community (Google Group)</li>
-						<li><code style="font-size: 30px;">node build.js modules=text,serialization,parser</code></li>
+						<li>Great docs</li>
+						<li>responsive community (Google Group)</li>
 					</ul>
 				</section>
 				<section>
+					<h2>Save/Restore 2.0</h2>
+					<p>Canvas can be serialized to JSON or SVG and restored</p>
+				</section>
+				<section>
+					<h2>Modular</h2>
+					<h3>(60 small classes, modules, mixins)</h3>
+					<p><code style="font-size: 30px;">node build.js modules=text,serialization,parser</code></p>
+
+				</section>
+				<section>
 					<h2>Thanks</h2>
-					<h3>Kelly Packer / @kellypacker</h3>
+					<h3>Kelly Packer / <a href="https://twitter.com/kellypacker">@kellypacker</a></h3>
 					<h3>References</h3>
 					<ul>
 						<li>4 part tutorial: <a href="http://fabricjs.com/articles/">http://fabricjs.com/articles/</a></li>
 						<li>Docs: <a href="http://fabricjs.com/docs/">http://fabricjs.com/docs/</a></li>
 						<li>Demos: <a href="http://fabricjs.com/demos/">http://fabricjs.com/demos/</a></li>
+						<li>Introduction to Canvas: <a href="http://diveintohtml5.info/canvas.html">http://diveintohtml5.info/canvas.html</a></li>
 					</ul>
 				</section>
 

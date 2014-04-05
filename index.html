@@ -68,7 +68,8 @@
 					<p>
 						Building an educational application for Pearson ERPI in Canada.
 					</p>
-						<img src="../images/erpi-classroom.jpg" width="700" />
+						<img src="../images/erpi-workbooks.jpg" width="250" style="float: left; border: none;margin-right: 10px" />
+						<img src="../images/erpi-classroom.jpg" width="700" style="float: left; border: none;" />
 				</section>
 
 				<section>
@@ -99,16 +100,19 @@
 
 				<section>
 					<h2>Canvas Experiment</h2>
+					<a href="http://andrew-hoyer.com/experiments/cloth/">http://andrew-hoyer.com/experiments/cloth/</a>
 					<iframe id="cloth" src="http://andrew-hoyer.com/experiments/cloth/" width="1000" height="600" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"> </iframe>
 				</section>
 
 				<section>
 					<h2>Canvas Charts: chartjs.org</h2>
+					<a href="http://www.chartjs.org/">http://www.chartjs.org/</a>
 					<iframe id="charts" src="http://www.chartjs.org/" width="1000" height="600" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"> </iframe>
 				</section>
 
 				<section>
 					<h2>Canvas Graphics Example</h2>
+					<a href="http://hakim.se/experiments/html5/404/netmag.html">http://hakim.se/experiments/html5/404/netmag.html</a>
 					<iframe id="visuals" src="http://hakim.se/experiments/html5/404/netmag.html" width="1000" height="600" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"> </iframe>
 				</section>
 
@@ -197,6 +201,12 @@ ctx.fillRect(20, 30, 150, 75);
 <a class="jsbin-embed" href="http://localhost:3000/tid/9/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 
+				<section>
+					<h2>Fabric.js</h2>
+					<p>Fabric.js is a powerful and simple Javascript HTML5 canvas library.</p>
+					<p>Fabric provides interactive object model on top of canvas element.</p>
+				</section>
+
 	 			<section>
 	 				<h2>Simplest fabric.js example</h2>
 	 				<h3>Add fabric script in HTML</h3>
@@ -258,7 +268,7 @@ canvas.add(rect);
 				<section>
 	 				<h2>Fabric.js</h2>
 	 				<h3>Shapes</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/20/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/39/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Fabric.js</h2>
@@ -267,13 +277,22 @@ canvas.add(rect);
 				</section>
 				<section>
 	 				<h2>Fabric.js</h2>
+					<h3>SVG Parsing</h3>
+<a class="jsbin-embed" href="http://localhost:3000/tid/38/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+				</section>
+				<section>
+	 				<h2>Fabric.js</h2>
 	 				<h3>Text</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/22/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/37/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
 				</section>
 				<section>
 	 				<h2>Fabric.js</h2>
 	 				<h3>Image</h3>
-<a class="jsbin-embed" href="http://localhost:3000/tid/23/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+<a class="jsbin-embed" href="http://localhost:3000/tid/36/embed?js,output&height=500px">JS Bin</a><script src="http://localhost:3000/js/embed.js"></script>
+				</section>
+				<section>
+					<h2>Canvas Profiler</h2>
+					<img src="/images/diff.gif" alt="" class="no-border" />
 				</section>
 
 				<section>
@@ -401,15 +420,19 @@ var LabeledRect = fabric.util.createClass(fabric.Rect, {
 				</section>
 				<section>
 					<h2>Other awesomeness</h2>
+					<img src="images/patrick.gif" alt="" />
 				</section>
 				<section>
 					<h2>Fast</h2>
 					<p>Benchmarks<br />150 random objects: <br/>Initialization: 151ms Rendering: 79ms Total time: 230ms</p>
+					<p><code style="font-size: 30px;">canvas.renderOnAddRemove = false</code></p>
+					<img src="images/fast.gif" alt="">
 				</section>
 				<section>
 					<h2>Test-Driven</h2>
 					<p>2400+ tests</p>
 					<p>Unit, functional, import/export</p>
+					<img src="images/tested.gif" alt="">
 				</section>
 				<section>
 					<h2>Browser Support</h2>
@@ -422,6 +445,7 @@ var LabeledRect = fabric.util.createClass(fabric.Rect, {
 					</ul>
 					<br /><br />
 					<p><em>If you are brave, there is some IE<9 support with excanvas</em></p>
+					<img src="images/support.gif" alt="">
 				</section>
 				<section>
 					<h2>In development</h2>
@@ -430,16 +454,22 @@ var LabeledRect = fabric.util.createClass(fabric.Rect, {
 						<li>Great docs</li>
 						<li>responsive community (Google Group)</li>
 					</ul>
+					<img src="images/help.gif" alt="">
 				</section>
 				<section>
-					<h2>Save/Restore 2.0</h2>
+					<h2>Save/Restore 3.0</h2>
 					<p>Canvas can be serialized to JSON or SVG and restored</p>
+					<img src="images/saved.gif" alt="">
 				</section>
 				<section>
 					<h2>Modular</h2>
 					<h3>(60 small classes, modules, mixins)</h3>
 					<p><code style="font-size: 30px;">node build.js modules=text,serialization,parser</code></p>
-
+					<img src="images/small.gif" />
+				</section>
+				<section>
+					<h2></h2>
+					<iframe width="1280" height="720" src="//www.youtube.com/embed/lMtjczxTSjU" frameborder="0" allowfullscreen></iframe>
 				</section>
 				<section>
 					<h2>Thanks</h2>
@@ -450,6 +480,7 @@ var LabeledRect = fabric.util.createClass(fabric.Rect, {
 						<li>Docs: <a href="http://fabricjs.com/docs/">http://fabricjs.com/docs/</a></li>
 						<li>Demos: <a href="http://fabricjs.com/demos/">http://fabricjs.com/demos/</a></li>
 						<li>Introduction to Canvas: <a href="http://diveintohtml5.info/canvas.html">http://diveintohtml5.info/canvas.html</a></li>
+						<li>Canvas Inspection using Chrome DevTools<a href="http://www.html5rocks.com/en/tutorials/canvas/inspection/">http://www.html5rocks.com/en/tutorials/canvas/inspection/</a></li>
 					</ul>
 				</section>
 

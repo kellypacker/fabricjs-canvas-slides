@@ -1,6 +1,9 @@
 # Using Fabric.js for Interactive HTML5 Canvas Applications
 Slide deck for presentation at Boise Code Camp 2014
 
+### PDF of Slides
+[http://csboxwebsite.s3.amazonaws.com/journal/fabric-presentation-all-slides.pdf](http://csboxwebsite.s3.amazonaws.com/journal/fabric-presentation-all-slides.pdf)
+
 Lots of examples are iframed in from a local jsbin instance
 
 Start reveal.js slide deck:
@@ -19,3 +22,4 @@ jsbin
 [http://localhost:3000/](http://localhost:3000/)
 
 Uses [LiveReload](http://livereload.com/)
+

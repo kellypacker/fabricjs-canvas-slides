@@ -3,7 +3,8 @@ Slide deck for presentation at Boise Code Camp 2014
 
 ### PDF of Slides
 [http://csboxwebsite.s3.amazonaws.com/journal/fabric-presentation-all-slides.pdf](http://csboxwebsite.s3.amazonaws.com/journal/fabric-presentation-all-slides.pdf)
-[https://speakerdeck.com/kellypacker/using-fabric-dot-js-for-interactive-html5-canvas-applications](Speaker Deck)
+#### On Speaker Deck
+[http://speakerdeck.com/kellypacker/using-fabric-dot-js-for-interactive-html5-canvas-applications](Speaker Deck)
 
 ### Built with
 

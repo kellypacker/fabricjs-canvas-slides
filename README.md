@@ -10,7 +10,7 @@ http://speakerdeck.com/kellypacker/using-fabric-dot-js-for-interactive-html5-can
 
 This presentation is built from the awesome HTML presentaion framework: [https://github.com/hakimel/reveal.js](reveal.js)
 
-Lots of examples are iframed in from a [https://github.com/jsbin/jsbin/blob/master/docs/running-your-own-jsbin.md](local jsbin instance).
+Lots of examples are iframed in from a local jsbin instance: https://github.com/jsbin/jsbin/blob/master/docs/running-your-own-jsbin.md.
 
 ### Starting local env
 
@@ -19,7 +19,7 @@ Start reveal.js slide deck:
 ```
 grunt serve
 ```
-[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+http://127.0.0.1:8000/
 
 Start jsbin:
 
@@ -27,7 +27,7 @@ Start jsbin:
 jsbin
 ```
 
-[http://localhost:3000/](http://localhost:3000/)
+http://localhost:3000/
 
-Uses [LiveReload](http://livereload.com/)
+Uses LiveReload http://livereload.com/
 

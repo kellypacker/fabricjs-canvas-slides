@@ -12,6 +12,8 @@ This presentation is built from the awesome HTML presentaion framework: [https:/
 
 Lots of examples are iframed in from a local jsbin instance: https://github.com/jsbin/jsbin/blob/master/docs/running-your-own-jsbin.md.
 
+Use LiveReload http://livereload.com/ to reload the slide deck when changes are saved to index.html
+
 ### Starting local env
 
 Start reveal.js slide deck:
@@ -29,5 +31,5 @@ jsbin
 
 http://localhost:3000/
 
-Uses LiveReload http://livereload.com/
+
 

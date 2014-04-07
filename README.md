@@ -3,8 +3,15 @@ Slide deck for presentation at Boise Code Camp 2014
 
 ### PDF of Slides
 [http://csboxwebsite.s3.amazonaws.com/journal/fabric-presentation-all-slides.pdf](http://csboxwebsite.s3.amazonaws.com/journal/fabric-presentation-all-slides.pdf)
+[https://speakerdeck.com/kellypacker/using-fabric-dot-js-for-interactive-html5-canvas-applications](Speaker Deck)
 
-Lots of examples are iframed in from a local jsbin instance
+### Built with
+
+This presentation is built from the awesome HTML presentaion framework: [https://github.com/hakimel/reveal.js](reveal.js)
+
+Lots of examples are iframed in from a [https://github.com/jsbin/jsbin/blob/master/docs/running-your-own-jsbin.md](local jsbin instance).
+
+### Starting local env
 
 Start reveal.js slide deck:
 
